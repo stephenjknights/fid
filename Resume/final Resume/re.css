@@ -1,0 +1,84 @@
+@charset "UTF-8";
+ul#link li {
+  font-family: "Broadway", serif;
+  display:inline;
+  text-align: center;
+}
+body {
+   background: #CBC3E3 url(Photos/card mockup.png) no-repeat center 100px fixed;
+}
+body {
+  font-family: "Gill Sans MT", serif;
+  font-size: 125%;
+  line-height: 175%;
+  margin: 0 15% 0;
+  background: #CBC3E3
+}
+h1 {
+   text-align: center;
+   text-transform: uppercase;
+   border-bottom: 1px solid #00080;
+   margin-top: 30px;
+  font-family: "Cooper Black", serif;
+ }
+ h2 {
+    font-size: 1em;
+    font-family: "Cooper Black", serif;
+ }
+
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: #939;
+  font-size: 150%
+}
+a:visited {
+  color: #000080;
+}
+a:focus, a:hover {
+  color: #c700f2;
+  background-color: #fff;
+}
+a:active {
+  color: #f0f;
+  background-color: #fff;
+}
+
+h1 {
+  font: bold 1.5em Showcard Gothic;
+  font-size: 200%
+  text-shadow: .05em .05em .1em lightslategray;
+  color: #CC5500;
+}
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+  color: #c60;
+}
+dt {
+  font-weight: bold;
+}
+strong {
+  font-style: italic;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+h2 + p {
+  text-align: center;
+  font-style: italic;
+  font-family: "Gill Sans MT", serif;
+  font-weight: bold;
+}
